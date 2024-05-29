@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <!--
+        UTF-8 show all
+    -->
+    <meta charset="UTF-8">
+    <!--
+        can't scale
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        title
+    -->
+    <title>/Minecraft-Server-Scan</title>
+    <!--
+        style
+    -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--
+        script
+    -->
+    <script src="js/script.js"></script>
+</head>
+
+<body class="keep">
+
+    <div>
+
+        <input type="text" id="ServerInput" placeholder="localhost:25565">
+
+        <button onclick="ScanServer()">
+            Scan
+        </button>
+
+        <p id="ServerAddress" onclick="CopyAddress()" title="Click To Copy">
+            Server Address :
+        </p>
+        <p id="status">
+            Status :
+        </p>
+        <p id="online">
+            Online :
+        </p>
+        <div id="faviconback">
+        </div>
+        <p id="favicon">
+            Favicon :
+        </p>
+        <p id="error">
+            Error :
+        </p>
+        <p id="players-max">
+            Players Max :
+        </p>
+        <p id="players-now">
+            Players Now :
+        </p>
+        <p id="server-name">
+            Server Name :
+        </p>
+        <p id="server-protocol">
+            Server Protocol :
+        </p>
+        <p id="last_updated">
+            Last Updated :
+        </p>
+        <p id="duration">Duration :
+        </p>
+
+    </div>
+
+</body>
+
+</html>

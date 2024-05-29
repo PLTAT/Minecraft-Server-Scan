@@ -1,0 +1,31 @@
+/*
+Cascading Style Sheets
+
+=
+class=.
+id=#
+*/
+
+/* styles.css */
+
+/*
+go
+*/
+
+html {
+    background-color: #555555;
+}
+
+.keep {
+    margin: 64px auto;
+}
+
+#faviconback {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*
+end
+*/
